@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@600&display=swap');
+body,html{
+  background-image: url(pngtree-abstract-smoke-with-light-on-dark-background-image_3064081.jpg);
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+button{
+  cursor: pointer;
+  background-color: white;
+  border: black 4px;
+  color: black;
+  height: 40px;
+  width: 75px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.imgBox{
+  position: relative;
+  height: 114px;
+  width: 108px;
+  margin: 20px;
+  display: inline-block;
+  cursor: crosshair;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 8px;
+  box-shadow: 4px 3px 3px #c09ab3,1px 1px 0 #c09ab3,1px -1px 0 #c09ab3, -1px -1px 0 #c09ab3;
+}
+
+.whiteBox{
+  position: relative;
+  height: 114px;
+  width: 108px;
+  background-color:#f4c3e5;
+  border: 4px solid black;
+  display: inline-block;
+  margin-top: 50px;
+  left: 200px;
+}
+
+.whiteBox1{
+  position: relative;
+  height: 114px;
+  width: 108px;
+  border: 4px solid black;
+  background-color:#f4c3e5;
+  display: inline-block;
+  left: 200px;
+}
+
+.whiteBox2{
+  position: relative;
+  height: 114px;
+  width: 108px;
+  border: 4px solid black;
+  background-color:#f4c3e5;
+  display: inline-block;
+  left: 200px;
+}
+
+.whiteBox3{
+  position: relative;
+  height: 114px;
+  width: 108px;
+  border: 4px solid black;
+  background-color:#f4c3e5;
+  display: inline-block;
+  left: 200px;
+}
+
+.hide{
+  display: none;
+}
+
+h2{
+  color: #0d0531;
+  text-shadow: 2px 3px 0 white,1px 1px 0 white,1px -1px 0 white,-1px -1px 0 white;
+  font-family: "Grandstander";
+  font-size: 62px;
+  margin-left: 20px;
+
+}
+
+h1{
+  color:  linear-gradient(black,white);
+  text-shadow: 6px 5px 3px #c09ab3,2px 2px 2px #c09ab3,2px 8px 2px #a01c6c, -1px -1px 2px #c09ab3;
+  font-family: "Orbitron";
+  font-size: 95px;
+  margin-left: 20px;
+  margin-top: 38px;
+}
+
+.table{
+  border: 5px solid white;
+  border-collapse: collapse;
+  height: 500px;
+  margin-left: 50px;
+}
+
+th{
+  border: 2px solid white;
+  font-size: 25px;
+  font-family: "Grandstander";
+  color: white;
+}
+
+section{
+  font-size: 25px;
+  font-family: "Grandstander";
+}
+
+a{
+  font-size: 20px;
+  font-family: "Grandstander";
+  color: white;
+}
